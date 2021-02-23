@@ -1,0 +1,73 @@
+
+header {
+    background-color: #e4572e;
+    text-align: center;
+}
+body {
+    background-color: #fffff2;
+}
+h1 {
+    font-family:'Chelsea Market', cursive;
+    }
+    h2 {
+        font-family: 'Gamja Flower', cursive;
+    }
+    .main {
+        font-family: 'Gamja Flower', cursive;
+        margin: auto;
+        width: 70%;
+    }
+    .image {
+        float: right;
+    
+        padding-right: 10px;
+        padding-top: 10px;
+        height: 100px;
+    
+    }
+    .first-article {
+        border: 4px solid #050401;
+        box-shadow: 3px 3px 0 0 #e4572e;
+        min-height: 200px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        line-height: 1.6em;
+        padding-left: 5px;
+
+        
+    }
+    .second-article {
+        border: 4px solid #050401;
+        box-shadow: 3px 3px 0 0 #e4572e;
+        min-height: 20px;
+        box-sizing: border-box;
+        line-height: 1.6em;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    
+    }
+    .form-p {
+        float: left;
+        box-shadow: 3px 3px 0 0 #e4572e;
+        border: 4px solid #050401;
+        margin: right 5%;
+        margin-left: 5%;
+        box-sizing: border-box;
+    
+    }
+    .form {
+        margin-left:  25%;
+        margin-right: 20%;
+        margin-bottom:  8%;
+    }
+    footer {
+        text-align: center;
+    }
+    @media (max-width: 1000px) {
+        .form-p{
+            float: none;
+        }
+    
+    }
+    
+    
