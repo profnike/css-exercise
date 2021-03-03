@@ -17,6 +17,116 @@ h1 {
         margin: auto;
         width: 70%;
     }
+    .main .addText
+    {
+        border: 4px solid #050401;
+        box-shadow: 3px 3px 0 0 #e4572e;
+        min-height: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        line-height: 1.6em;
+        padding: 10px;
+        width: 100%;
+        color: white;
+        background-color: black;
+    }
+
+    .popup1{
+        background-color:rgba(0, 0, 0, 0.6);
+        width: 70%;
+        height: 100%;
+        display: none;
+        position:absolute;
+        align-items: center;
+        justify-content:center;
+        top: 0;
+
+    } 
+    .popupText1{
+        background-color: white;
+        width: 60%;
+        height: 180px;
+        text-align: center;
+        position: relative;
+
+    }
+    textarea{
+        background-color:whitesmoke;
+        height: 40px;
+        width:90%;
+        margin-bottom: 20px;
+    }
+    #notify1{
+        padding-top: 10px;
+        padding: 10px;
+        float: left;
+    }
+    #belowButton1{
+        float: right;
+        border: none;
+        background-color: transparent;
+        padding-left: 10px;
+        padding-top:10px ;
+    }
+
+    .below-button21{
+        float: right;
+        border: none;
+        background-color: transparent;
+        padding-left: 10px;
+    }
+    
+    #belowButton{
+        float: right;
+        border: none;
+        background-color: transparent;
+        padding-left: 10px;
+        padding-top:10px ;
+    }
+
+    .below-button2{
+        float: right;
+        border: none;
+        background-color: transparent;
+        padding-left: 10px;
+    }
+    .popup{
+        background-color:rgba(0, 0, 0, 0.6);
+        width: 70%;
+        height: 100%;
+        display: none;
+        position:absolute;
+        align-items: center;
+        justify-content:center;
+        top: 0;
+
+    } 
+    .popupText{
+        background-color: white;
+        width: 60%;
+        height: 180px;
+        text-align: center;
+        position: relative;
+
+    }
+    textarea{
+        background-color:whitesmoke;
+        height: 40px;
+        width:90%;
+        margin-bottom: 20px;
+    }
+    #notify{
+        padding-top: 10px;
+        padding: 10px;
+        float: left;
+    }
+
+    #count{
+        text-align: center;
+        font-weight: bold;
+        
+    }
+        
     .image {
         float: right;
     
@@ -24,6 +134,9 @@ h1 {
         padding-top: 10px;
         height: 100px;
     
+    }
+    #new-article{
+        display: none;
     }
     .first-article {
         border: 4px solid #050401;
@@ -59,6 +172,7 @@ h1 {
         .form input{
             border: 0;
             background-color: transparent;
+            float: left;
         }
     
     .form {
@@ -69,7 +183,7 @@ h1 {
     footer {
         text-align: center;
     }
-    @media (max-width: 1000px) {
+    @media (max-width: 1300px) {
         .form-p{
             float: none;
         }

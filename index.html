@@ -14,8 +14,43 @@
     <header>
         <h1>Sanni's Journal</h1>
         <h2>So fresh and so clean</h2>
-    </header>
+    </header> 
     <main class="main">
+        <button type="submit" class="addText" id="addNote"><b>add a new note</b></button>
+        <p id="count"></p>
+
+        <div class="popup1">
+            <div class="popupText1">
+                <p id="notify1">Write your note</p>
+                <form id="newNote1">
+                <textarea type="text" class="newNote1" name="message" id="text" ></textarea>
+                <hr>
+                <button type="submit" id="belowButton1" class="newNote1"><b>Ok</b></button>
+                </form>
+                <form>
+                <button type="submit" class="below-button21" id="cancel"><b>Cancel</b></button>
+                  </form>
+            </div> 
+  
+          </div>
+
+        <div class="popup ">
+          <div class="popupText">
+              <p id="notify">Write your note</p>
+              <form id="newNote">
+              <textarea type="text" class="newNote" name="message" id="tent" ></textarea>
+              <hr>
+              <button type="submit" id="belowButton" class="newNote"><b>Ok</b></button>
+              </form>
+              <form>
+              <button type="submit" class="below-button2" id="cancel"><b>Cancel</b></button>
+                </form>
+          </div> 
+
+        </div>
+        
+        <div id=noteList>
+        
         <article class="first-article">
             <h2>13/05/23: Spatulas</h2>
             <p><img class="image" src="images/spatula.gif" alt="spatulas"></p>
@@ -32,6 +67,7 @@
             <p>Did you know? Cookie Monster once said, <q>Sometimes me think what is love, and then me think love is what last cookie is for. Me give up the last cookie for you.</q> I wonder if the same applies for cupcakes? (If so, I don't think I can ever love ANYONE!)
             </p>
         </article>
+        </div>
     </main>
     <hr>
     <footer>
@@ -45,6 +81,7 @@
     <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
 
+    <script type="text/javascript" src="main.js"></script>
+    
 </body>
-
-</html>
+</html
